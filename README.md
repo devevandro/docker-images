@@ -1,4 +1,4 @@
-# Projeto para a criação de uma imagens Dockerfile
+# Projeto para a criação de imagens Dockerfile
 
 ## Postgres
 
@@ -15,7 +15,7 @@ docker run --env-file .env -p 5432:5432 postgres-image
 
 ## Redis
 
-## Comandos:
+### Comandos:
 ````
 bash
 docker build -t redis-image .
